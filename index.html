@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokethree</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">pokethree</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="https://discord.gg/e6ZsKHywkf" class="nav-link" target="_blank" rel="noopener noreferrer">Community</a>
+                <a href="#privacy-policy" class="nav-link">Privacy</a>
+            </div>
+            <a href="https://discord.com/oauth2/authorize?client_id=1425773195784486973&permissions=0&integration_type=0&scope=bot" class="nav-btn" target="_blank" rel="noopener noreferrer">Add Bot</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">The Pokémon experience.<br>On Discord.</h1>
+                <p class="hero-description">
+                    Pokethree brings the Pokémon experience to Discord. Catch randomly-spawning pokémon in your servers, 
+                    trade them to expand your collection, battle with your friends to win rewards, and more. 
+                    All free to play.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://discord.gg/e6ZsKHywkf" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                        </svg>
+                        Join Community
+                    </a>
+                    <a href="https://discord.com/oauth2/authorize?client_id=1425773195784486973&permissions=0&integration_type=0&scope=bot" class="btn btn-secondary btn-large" target="_blank" rel="noopener noreferrer">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        Add Bot to Server
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="pokemon-sprite-large">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" 
+                         alt="Eevee Pokemon" 
+                         class="eevee-sprite-large"
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎣</div>
+                    <h3 class="feature-title">Catch & Collect Pokémon</h3>
+                    <p class="feature-description">
+                        As you talk in your server, pokémon will randomly appear. Compete with other server members 
+                        to be the fastest to catch it! Keep catching to increase the size of your collection and 
+                        work toward completing the Pokédex.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Trade & Sell Pokémon</h3>
+                    <p class="feature-description">
+                        Really want a rare pokémon? Looking to add to your personal collection? Trade with other 
+                        players anywhere, anytime! You can also buy and sell on the global marketplace, where a 
+                        wide variety of Pokémon are regularly added.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚔️</div>
+                    <h3 class="feature-title">Battle with Pokémon</h3>
+                    <p class="feature-description">
+                        Gather your most powerful pokémon and challenge fellow trainers in a battle of skill and 
+                        strategy. The bot supports pokémon duels using moves from the real Pokémon games, complete 
+                        with fancy, customizable images.
+                    </p>
+                </div>
+            </div>
+
+            <div class="features-list">
+                <div class="feature-item">
+                    <span class="feature-badge">✨</span>
+                    <span>Powerful Filters</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-badge">🌤️</span>
+                    <span>Time & Weather</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-badge">⭐</span>
+                    <span>Shiny Hunting</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-badge">🎨</span>
+                    <span>Form Changes</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-badge">👥</span>
+                    <span>Large Community</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-badge">💬</span>
+                    <span>Excellent Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to begin your adventure?</h2>
+            <a href="https://discord.com/oauth2/authorize?client_id=1425773195784486973&permissions=0&integration_type=0&scope=bot" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">pokethree</h3>
+                    <p class="footer-tagline">The Pokémon experience on Discord</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Legal</h4>
+                        <a href="#privacy-policy" class="footer-link">Privacy Policy</a>
+                        <a href="#terms-of-service" class="footer-link">Terms of Service</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Community</h4>
+                        <a href="https://discord.gg/e6ZsKHywkf" class="footer-link" target="_blank" rel="noopener noreferrer">Discord Server</a>
+                        <a href="https://discord.com/oauth2/authorize?client_id=1425773195784486973&permissions=0&integration_type=0&scope=bot" class="footer-link" target="_blank" rel="noopener noreferrer">Add Bot</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Pokethree is a fan-made project and is not affiliated with Nintendo, Game Freak, or The Pokémon Company International.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Sections -->
+    <div id="privacy-policy" class="legal-section">
+        <div class="legal-card">
+            <h2 class="legal-title">Privacy Policy</h2>
+            <div class="legal-content">
+                <p><strong>Effective Date:</strong> December 8, 2025</p>
+                
+                <p>This Privacy Policy explains how [Insert LLC Name] ("Company," "we," "us," or "our") collects, uses, and protects information when you use Pokethree, including our website(s), Discord bot(s), and related services (collectively, the "Services").</p>
+                
+                <p>By using the Services, you agree to the terms of this Privacy Policy. If you do not agree, please discontinue use of the Services.</p>
+                
+                <p><strong>Pokethree is a fan-made project and is not affiliated with Nintendo, Game Freak, or The Pokémon Company International.</strong></p>
+
+                <h3>1. Information We Collect</h3>
+                <p>We collect only the information necessary to operate and improve the Services. This includes:</p>
+                
+                <h4>1.1 Information You Provide Voluntarily</h4>
+                <ul>
+                    <li><strong>Discord Account Information:</strong> We may access your Discord username, user ID, avatar, and server membership as allowed by Discord's API.</li>
+                    <li><strong>Gameplay Actions:</strong> Commands you enter, choices you make, and interactions with features of the Services.</li>
+                </ul>
+                <p>We do not collect email addresses, phone numbers, or other personal profile data unless voluntarily provided.</p>
+
+                <h4>1.2 Information Collected Automatically</h4>
+                <p>Through the Discord API and our internal systems, we may automatically collect:</p>
+                <ul>
+                    <li>User IDs and Server IDs (to store game progress)</li>
+                    <li>Message content limited to bot commands</li>
+                    <li>Timestamps of interactions</li>
+                    <li>Gameplay statistics, such as Pokémon caught, items owned, market activity, and in-game events</li>
+                    <li>Error logs and diagnostic information</li>
+                </ul>
+                <p>We do not read or store your private messages or any Discord content outside direct bot interactions.</p>
+
+                <h4>1.3 Payment Information</h4>
+                <p>If you purchase Paid Services, payments are processed by a third-party payment processor (currently Ko-Fi).</p>
+                <p>We do not collect or store:</p>
+                <ul>
+                    <li>Credit card numbers</li>
+                    <li>Billing addresses</li>
+                    <li>Bank account information</li>
+                </ul>
+                <p>All payment data is governed by Ko-Fi's policies: <a href="https://more.ko-fi.com/privacy" target="_blank" rel="noopener noreferrer">https://more.ko-fi.com/privacy</a></p>
+
+                <h3>2. How We Use Your Information</h3>
+                <p>We use collected information to:</p>
+                <ul>
+                    <li>Provide, maintain, and improve the Services</li>
+                    <li>Store in-game progress and inventory</li>
+                    <li>Detect and prevent cheating, fraud, abuse, or Terms violations</li>
+                    <li>Respond to support requests</li>
+                    <li>Maintain security and debug errors</li>
+                    <li>Comply with legal obligations</li>
+                </ul>
+                <p>We do not sell or share user data with advertisers, data brokers, or third-party marketing companies.</p>
+
+                <h3>3. How We Share Information</h3>
+                <p>We may share information only in the following limited circumstances:</p>
+                
+                <h4>3.1 Service Providers</h4>
+                <p>We may share data with trusted third-party vendors who assist with:</p>
+                <ul>
+                    <li>Hosting</li>
+                    <li>Database management</li>
+                    <li>Error monitoring</li>
+                    <li>Payment processing</li>
+                </ul>
+                <p>These providers are bound by confidentiality obligations.</p>
+
+                <h4>3.2 Legal Reasons</h4>
+                <p>We may disclose information if required to:</p>
+                <ul>
+                    <li>Comply with laws or legal processes</li>
+                    <li>Enforce our Terms of Service</li>
+                    <li>Protect the rights, safety, and property of the Company, users, or the public</li>
+                </ul>
+
+                <h4>3.3 In Aggregated or Anonymous Form</h4>
+                <p>We may share non-identifying aggregate data (e.g., usage statistics) for analytics or transparency.</p>
+                <p>We never share identifiable gameplay or account data publicly without permission.</p>
+
+                <h3>4. Data Storage and Retention</h3>
+                <p>We retain data only as long as necessary to operate the Services or meet legal requirements.</p>
+                <p><strong>Examples:</strong></p>
+                <ul>
+                    <li><strong>Gameplay data:</strong> Stored until the user requests deletion or becomes inactive for an extended period.</li>
+                    <li><strong>Server and configuration data:</strong> Stored until the server removes the bot or requests deletion.</li>
+                    <li><strong>Error logs:</strong> Typically retained for up to 90 days unless needed for investigations.</li>
+                </ul>
+                <p>If you request deletion of your data, your gameplay progress and stored information will be permanently erased within a reasonable timeframe.</p>
+
+                <h3>5. Data Security</h3>
+                <p>We implement reasonable and industry-standard security practices to protect user data, including:</p>
+                <ul>
+                    <li>Access controls</li>
+                    <li>Encrypted storage (where applicable)</li>
+                    <li>Secure hosting</li>
+                    <li>Rate-limiting and automated abuse detection</li>
+                </ul>
+                <p>No online service is completely secure, and we cannot guarantee absolute security.</p>
+
+                <h3>6. Children's Privacy</h3>
+                <p>The Services are intended for users 13 years of age or older, consistent with Discord's Terms of Service and COPPA regulations.</p>
+                <p>We do not knowingly collect personal information from children under 13.</p>
+                <p>If we learn that a user under 13 is using the Services, we will delete their data promptly.</p>
+
+                <h3>7. International Users</h3>
+                <p>If you access the Services from outside the United States, understand that your data may be transferred to and processed in the United States or other countries with different data protection laws.</p>
+
+                <h3>8. Third-Party Services</h3>
+                <p>The Services may contain links or integrations with third-party platforms (e.g., Discord, Stripe).</p>
+                <p>These services are governed by their own privacy policies, and we are not responsible for their practices.</p>
+
+                <h3>9. Your Rights and Choices</h3>
+                <p>Depending on your jurisdiction, you may have the right to:</p>
+                <ul>
+                    <li>Access your stored data</li>
+                    <li>Request corrections</li>
+                    <li>Request deletion</li>
+                    <li>Object to or restrict certain types of processing</li>
+                </ul>
+                <p>To exercise any rights, please contact us at: <strong>[Insert Contact Email]</strong></p>
+                <p>We may request proof of identity to process such requests.</p>
+
+                <h3>10. Data Deletion Requests</h3>
+                <p>Users may request deletion of:</p>
+                <ul>
+                    <li>Gameplay data</li>
+                    <li>Server configuration data</li>
+                    <li>Stored logs relating specifically to their account</li>
+                </ul>
+                <p>To submit a deletion request, contact us at <strong>[Insert Contact Email]</strong> with your Discord User ID.</p>
+                <p>Deletion requests do not apply to:</p>
+                <ul>
+                    <li>Data already anonymized</li>
+                    <li>Data required for detecting and preventing abuse</li>
+                    <li>Legally required retention</li>
+                </ul>
+
+                <h3>11. Changes to This Privacy Policy</h3>
+                <p>We may update this Privacy Policy from time to time.</p>
+                <p>If we make material updates, we will provide notice through:</p>
+                <ul>
+                    <li>Our website</li>
+                    <li>Announcements through the bot or Discord server</li>
+                    <li>Other reasonable means</li>
+                </ul>
+                <p>Your continued use of the Services after updates are posted constitutes acceptance of the revised policy.</p>
+            </div>
+            <a href="#" class="legal-close">Close</a>
+        </div>
+    </div>
+
+    <div id="terms-of-service" class="legal-section">
+        <div class="legal-card">
+            <h2 class="legal-title">PokeThree Terms of Service</h2>
+            <div class="legal-content">
+                <p><strong>Effective Date:</strong> December 8, 2025</p>
+
+                <h3>1. Introduction</h3>
+                <p>Welcome to Pokethree, a service provided by [Insert LLC Name] ("Company," "we," "us," or "our"). These Terms of Service ("Terms") form a binding agreement between you and the Company. They govern your use of our website(s), product(s), Discord bot(s), and related features (collectively, the "Services"). Our Privacy Policy, located at [Insert Link], is incorporated into these Terms.</p>
+                
+                <p>By accessing or using the Services, you represent and agree that:</p>
+                <ul>
+                    <li>You are at least 13 years old, and</li>
+                    <li>If you are the age of majority in your jurisdiction, you have read, understood, and agreed to be bound by these Terms and the Privacy Policy; or</li>
+                    <li>If you are under the age of majority, your parent or legal guardian has reviewed and agreed to these Terms and the Privacy Policy on your behalf.</li>
+                </ul>
+                
+                <p>If you do not agree to these Terms, do not use the Services.</p>
+                
+                <p><strong>Disclaimer:</strong> Pokethree is a fan-made project and is not affiliated with, endorsed by, or approved by Nintendo, Game Freak, or The Pokémon Company International. All Pokémon-related names, assets, and trademarks belong to their respective owners.</p>
+
+                <h3>2. Acceptable Use</h3>
+                <p>You may use the Services only for their intended purposes and in compliance with these Terms, applicable laws, and the Discord Terms of Service (<a href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">https://discord.com/terms</a>).</p>
+                
+                <p>You agree not to use the Services in any manner that:</p>
+                <ul>
+                    <li>Violates these Terms or any law, rule, or regulation;</li>
+                    <li>Infringes the intellectual property rights of any party;</li>
+                    <li>Is threatening, harassing, defamatory, fraudulent, deceptive, or otherwise objectionable;</li>
+                    <li>Compromises or attempts to compromise the security of any account, including attempting to obtain credentials or private information;</li>
+                    <li>Interferes with or disrupts the proper functioning of the Services, including exploiting or publicizing unintended bugs or errors;</li>
+                    <li>Impersonates the Services or misleads users through fraudulent interfaces or bots;</li>
+                    <li>Uses or distributes unapproved software that interacts with the Services (see Section 3);</li>
+                    <li>Engages in unapproved trading, transferring, or sale of Virtual Currency or Virtual Goods (see Section 4);</li>
+                    <li>Encourages or assists any third party in violating these Terms.</li>
+                </ul>
+                
+                <p>We may suspend or terminate your access to the Services immediately and without notice for violating these Terms or for any conduct we determine harmful to the Services or other users.</p>
+                
+                <p>If you are unsure whether an action is permitted, please contact us for clarification.</p>
+
+                <h3>3. Acceptable Software Programs</h3>
+                <p>The Services are intended for direct, human-controlled use. You may not develop, distribute, or use any software program that interacts with the Services in a way that:</p>
+                <ul>
+                    <li>Automates messaging to influence Pokémon spawns ("autospamming");</li>
+                    <li>Automates the catching of Pokémon ("autocatching");</li>
+                    <li>Automates use of the market or auction system ("autosniping," "autobidding");</li>
+                    <li>Conducts any automated interaction with the Services, including the use of selfbots or other tools that simulate user input.</li>
+                </ul>
+                <p>Any unauthorized automation may result in immediate suspension or termination.</p>
+
+                <h3>4. Virtual Currency and Virtual Goods</h3>
+                <p>The Services may offer or award virtual currency, such as Pokécoins or Coins ("Virtual Currency"), and virtual goods, such as Pokémon or Redeems ("Virtual Goods").</p>
+                
+                <p>Unless expressly stated otherwise:</p>
+                <ul>
+                    <li>Virtual Currency and Virtual Goods have no real-world monetary value,</li>
+                    <li>Are not transferable,</li>
+                    <li>Are not redeemable for real-world currency, goods, or services,</li>
+                    <li>And may only be used within the Services as permitted by the Company.</li>
+                </ul>
+                
+                <h4>Prohibited Transactions ("Cross-Trading")</h4>
+                <p>You may not transfer, sell, exchange, or barter Virtual Currency or Virtual Goods:</p>
+                <ul>
+                    <li>For real-world money (e.g., USD);</li>
+                    <li>For cryptocurrency (e.g., Bitcoin, Ethereum);</li>
+                    <li>For items or value in third-party apps, games, or services;</li>
+                    <li>For any compensation outside the authorized functionality of the Services.</li>
+                </ul>
+                <p>The sole exception is the awarding of in-bot items as incentives for Discord server boosting.</p>
+                
+                <h4>Prohibited Invite-Based Events</h4>
+                <p>You may not host or participate in events that award Virtual Currency or Virtual Goods in exchange for:</p>
+                <ul>
+                    <li>Joining a Discord server via an invite link;</li>
+                    <li>Generating invite activity;</li>
+                    <li>Advertising or promoting a Discord server.</li>
+                </ul>
+                <p>Violations may result in suspension of your access to the Services.</p>
+                
+                <p>We retain the right to modify, manage, restrict, or eliminate Virtual Currency or Virtual Goods at our discretion. All prices and availability are subject to change without notice.</p>
+                
+                <p>If your account is terminated due to violation of these Terms, you forfeit all unused Virtual Currency and Virtual Goods without refund.</p>
+
+                <h3>5. Paid Services</h3>
+                <p>Basic use of the Services is free, but certain features or goods ("Paid Services") may require payment.</p>
+                
+                <h4>Product Descriptions</h4>
+                <p>Product information, availability, and pricing are described within the Services and may change without notice. Visuals and representations are for reference only.</p>
+                
+                <h4>Prices</h4>
+                <p>Prices may exclude taxes, fees, and other charges, which will be disclosed before purchase. We may collect any taxes legally required.</p>
+                
+                <h4>Billing</h4>
+                <p>Payments are processed through a third-party payment processor ("Payment Processor"). We currently use Ko-Fi.</p>
+                
+                <p>Your purchases are governed not only by these Terms but also by Ko-Fi's Terms and Privacy Policy:</p>
+                <ul>
+                    <li>Ko-Fi Terms: <a href="https://more.ko-fi.com/terms" target="_blank" rel="noopener noreferrer">https://more.ko-fi.com/terms</a></li>
+                    <li>Ko-Fi Privacy Policy: <a href="https://more.ko-fi.com/privacy" target="_blank" rel="noopener noreferrer">https://more.ko-fi.com/privacy</a></li>
+                </ul>
+                
+                <p>We are not responsible for errors or issues caused by the Payment Processor.</p>
+                
+                <h4>Refund Policy</h4>
+                <p><strong>ALL PURCHASES ARE FINAL.</strong></p>
+                <p>We do not guarantee refunds or credits for any Paid Services, including upon account termination. Any refunds are granted solely at our discretion.</p>
+
+                <h3>6. Liability and Indemnification</h3>
+                
+                <h4>6.1 Disclaimer of Warranties</h4>
+                <p>The Services are provided "AS IS" and "AS AVAILABLE."</p>
+                <p>We make no warranties, express or implied, including:</p>
+                <ul>
+                    <li>Merchantability;</li>
+                    <li>Fitness for a particular purpose;</li>
+                    <li>Non-infringement;</li>
+                    <li>Continuous, error-free, or secure operation.</li>
+                </ul>
+                <p>Your use of the Services is at your own risk.</p>
+                
+                <h4>6.2 Limitation of Liability</h4>
+                <p>To the fullest extent permitted by law:</p>
+                <ul>
+                    <li>The Company shall not be liable for any indirect, incidental, special, punitive, or consequential damages (including data loss, lost profits, or service interruption).</li>
+                    <li>Our total cumulative liability for any claim relating to the Services shall not exceed $100 USD.</li>
+                </ul>
+                
+                <h4>6.3 Indemnification</h4>
+                <p>You agree to indemnify, defend, and hold harmless the Company from any claims, liabilities, damages, losses, or expenses arising from:</p>
+                <ul>
+                    <li>Your use of the Services; or</li>
+                    <li>Your violation of these Terms.</li>
+                </ul>
+
+                <h3>7. Miscellaneous</h3>
+                
+                <h4>7.1 Service Interruption</h4>
+                <p>We may suspend the Services for maintenance or updates at any time. The Services may also experience outages outside our control.</p>
+                <p>We may discontinue the Services permanently, in which case we will allow users to export personal data as required by law.</p>
+                
+                <h4>7.2 Changes to These Terms</h4>
+                <p>We may update these Terms at any time. If changes occur, we will post a notice on Website or notify you through other reasonable means.</p>
+                <p>Unless stated otherwise, your continued use of the Services after changes are posted constitutes acceptance of the updated Terms.</p>
+            </div>
+            <a href="#" class="legal-close">Close</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
